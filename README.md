@@ -1,5 +1,4 @@
 <h1>Random Quote Machine - Project for FreeCodeCamp Certification 🎓</h1>
-
 <p>This project was built as part of the FreeCodeCamp Certification program to demonstrate my understanding of frontend frameworks, focusing on:</p>
 <ul>
   <li>Component-based architecture</li>
