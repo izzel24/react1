@@ -4,13 +4,13 @@
   <li>Component-based architecture</li>
   <li>Fetching data from APIs</li>
 </ul>
-<h2>Project Screenshot</h2>
-<img src="https://raw.githubusercontent.com/izzel24/react1/refs/heads/main/screenshot_project.png" alt="Random Quote Machine Screenshot" />
+<h2>Project Screenshot 📸</h2>
+<img src="https://raw.githubusercontent.com/izzel24/Random-Quote/refs/heads/main/screenshot_project.png" alt="Random Quote Machine Screenshot" />
 
-<h2>Live Demo</h2>
+<h2>Live Demo 🚀</h2>
 <p>Check out the live demo of the project here: <a href="https://izzel24.github.io/Random-Quote/" target="_blank">Random Quote Machine</a></p>
 
-<h2>API Source</h2>
+<h2>API Source </h2>
 <p>This project uses the <a href="https://api-ninjas.com" target="_blank">API Ninjas Quotes API</a> to fetch random quotes based on the happiness category.</p>
 
 <h2>Icon Credits</h2>
