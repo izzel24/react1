@@ -1,17 +1,25 @@
-<h1>Random Quote Machine - Project for FreeCodeCamp Certification 🎓</h1>
-<p>This project was built as part of the FreeCodeCamp Certification program to demonstrate my understanding of frontend frameworks, focusing on:</p>
-<ul>
-  <li>Component-based architecture</li>
-  <li>Fetching data from APIs</li>
-</ul>
-<h2>Project Screenshot</h2>
-<img src="https://raw.githubusercontent.com/izzel24/react1/refs/heads/main/screenshot_project.png" alt="Random Quote Machine Screenshot" />
+# Random Quote Machine - FreeCodeCamp Certification Project 🎓
 
-<h2>Live Demo</h2>
-<p>Check out the live demo of the project here: <a href="https://izzel24.github.io/react1/" target="_blank">Random Quote Machine</a></p>
+## Description
+**Random Quote Machine** is a project built as part of the **FreeCodeCamp Frontend Libraries Certification**. The application allows users to generate random quotes from the *happiness* category and share them instantly on Twitter.
 
-<h2>API Source</h2>
-<p>This project uses the <a href="https://api-ninjas.com" target="_blank">API Ninjas Quotes API</a> to fetch random quotes based on the happiness category.</p>
+## Live Demo
+🚀 **[View Live Demo](https://izzel24.github.io/react1/)**
 
-<h2>Icon Credits</h2>
-<p>The Twitter icon is sourced from <a href="https://www.flaticon.com" target="_blank">Flaticon</a></p>
+## Features
+- **API Integration**: Fetches quotes dynamically using the **API Ninjas Quotes API**.
+- **React Component-Based Architecture**: Built with React for a modular and maintainable code structure.
+- **Share on Twitter**: Users can easily share quotes on Twitter with a single click.
+- **Responsive Design**: Ensures compatibility across devices.
+
+## Screenshot
+![Random Quote Machine Screenshot](https://raw.githubusercontent.com/izzel24/react1/refs/heads/main/screenshot_project.png)
+
+## How to Use
+1. Open the app using the [live demo link](https://izzel24.github.io/react1/).
+2. Click the **"More"** button to generate a new random quote.
+3. Share the quote on Twitter by clicking the Twitter icon.
+
+## Credits
+- **API Source**: [API Ninjas Quotes API](https://api-ninjas.com/).
+- **Twitter Icon**: [Flaticon](https://www.flaticon.com/).
