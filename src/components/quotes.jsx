@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from "react";
 import "./quotes.scss";
-import x from "./img/twitter_x_new_logo_square_x_icon_256075.png";
+import x from "./img/twitter.png";
 
 
 
@@ -32,7 +32,7 @@ return(
             <p id="author">{author1}</p>
             <div className="container">
                 <button id="new-quote" className="onecolor" onClick={randQuotes}>More</button>
-                <a href={`https://twitter.com/intent/tweet?text=${text1}${author1}`} target="_blank"><img src={x} alt="share-x"/></a>
+                <a href={`https://twitter.com/intent/tweet?text=${text1}${author1}`} target="_blank" id="tweet-quote"><img src={x} alt="share-x"/></a>
             </div>
         </div>
 )
