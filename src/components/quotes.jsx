@@ -9,11 +9,15 @@ function Quotes(){
     const[author,setAuthor] = useState("");
 
     const randQuotes = () => {
-        fetch("https://type.fit/api/quotes")
+        fetch("https://api.api-ninjas.com/v1/quotes?category=happiness",{
+            headers: {
+                "X-Api-Key" : process.env.REACT_APP_API_KEY
+            }
+        })
         .then(Response => Response.json())
         .then(data => {
             const rand = Math.floor(Math.random()*data.length)
-            setText(data[rand].text)
+            setText(data[rand].quote)
             setAuthor(data[rand].author)
         })
     }
