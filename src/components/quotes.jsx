@@ -8,8 +8,10 @@ function Quotes(){
     const[text,setText] = useState("");
     const[author,setAuthor] = useState("");
 
+    console.log(process.env.REACT_APP_API_KEY);
+
     const randQuotes = () => {
-        fetch("https://api.api-ninjas.com/v1/quotes?category=happiness",{
+        fetch("https://api.api-ninjas.com/v1/quotes",{
             headers: {
                 "X-Api-Key" : process.env.REACT_APP_API_KEY
             }
